@@ -1,20 +1,15 @@
 <template>
-  <div class="">
-    <h1 class="font-semibold sm:text-5xl lg:text-6xl">
-      WELCOME TO MOLTENDEV LABS
-    </h1>
-    <h2 class="my-16 md:my-20 font-semibold text-xl">
-      See where the magic happens. From nothing to amazing software.
-    </h2>
-    <div class="flex my-8">
-      <nuxt-link to="/design">
-        <button class="btn">Design</button>
-      </nuxt-link>
-      <nuxt-link to="/contact">
-        <button class="btn-text ml-4 text-surface-300 dark:border-surface-300">
-          Meet the founder
-        </button>
-      </nuxt-link>
+  <div>
+    <div class="grid grid-cols-3 gap-4">
+      <h1 class="font-semibold sm:text-5xl lg:text-6xl">
+        Front-end <br />
+        developer
+      </h1>
+      <img src="../assets/images/heroImage.png" alt="Hero image" />
+      <p class="grid-cols-3 my-16 md:my-20 font-semibold text-xl">
+        I'm Pol, a front-end developer looking for a challenge. I make websites
+        with any design. Pixel perfect is my second name.
+      </p>
     </div>
   </div>
 </template>
