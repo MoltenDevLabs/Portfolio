@@ -5,7 +5,7 @@
     <!-- SECTION ONE SECTION -->
     <skillSection class="fade-in-effect mb-24" />
     <!-- SECTION TWO SECTION -->
-    <sectionTwoSection class="fade-in-effect mb-24" />
+    <projectSection class="fade-in-effect mb-24" />
     <!-- SECTION THREE SECTION-->
     <sectionThreeSection class="fade-in-effect mb-24" />
     <!-- SECTION FOUR SECTION -->
