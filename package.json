@@ -13,9 +13,9 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/color-mode": "^3.3.2",
     "@nuxtjs/device": "^3.1.1",
-    "@nuxtjs/google-fonts": "^3.0.2",
+    "@nuxtjs/google-fonts": "^3.1.0",
     "@nuxtjs/supabase": "^1.1.4",
-    "@nuxtjs/tailwindcss": "^6.10.0",
+    "@nuxtjs/tailwindcss": "^6.10.1",
     "@tailwindcss/typography": "^0.5.10",
     "@types/node": "^18.17.0",
     "nuxt": "^3.8.2"

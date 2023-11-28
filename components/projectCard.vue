@@ -47,6 +47,10 @@ defineProps({
     type: Array,
     required: true,
   },
+  projectLink: {
+    type: String,
+    required: true,
+  },
 });
 </script>
 

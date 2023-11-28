@@ -48,7 +48,10 @@
   h4,
   h5,
   h6 {
-    @apply font-header;
+    @apply font-header m-0;
+  }
+  h2 {
+    @apply my-4 text-3xl font-bold tracking-wide underline;
   }
 
   a {

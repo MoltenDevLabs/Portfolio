@@ -10,6 +10,7 @@
         :projectType="project.projectType"
         :projectTag="project.projectTag"
         :projectText="project.projectText"
+        :projectLink="project.projectLink"
       />
     </div>
   </div>
@@ -24,6 +25,7 @@ const projectList = [
     projectType: "e-commerce",
     projectTag: ["Responsive", "Design"],
     projectText: "Text here. a lot of text blah blah",
+    projectLink: "",
   },
   {
     projectImage:
@@ -32,6 +34,7 @@ const projectList = [
     projectType: "Community website",
     projectTag: ["Mobile", "Web app"],
     projectText: "Text here. a lot of text blah blah",
+    projectLink: "",
   },
   {
     projectImage:
@@ -40,6 +43,7 @@ const projectList = [
     projectType: "playground",
     projectTag: ["Styles"],
     projectText: "Text here. a lot of text blah blah",
+    projectLink: "",
   },
 ];
 </script>
