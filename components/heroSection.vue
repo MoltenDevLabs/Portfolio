@@ -1,7 +1,7 @@
 <template>
   <div class="flex items-center justify-between">
     <div class="relative w-1/3 flex flex-col items-end">
-      <h1 class="my-0 pb-44 pr-8 font-semibold sm:text-5xl lg:text-6xl">
+      <h1 class="my-0 pb-44 pr-8 font-semibold">
         Front-end <br />
         developer
       </h1>
@@ -14,7 +14,7 @@
         alt="Hero image"
       />
       <div
-        class="absolute inset-x-0 top-1/2 border-t border-stone-500 -z-10 -rotate-45"
+        class="absolute inset-x-0 top-1/2 border-t border-stone-500 -z-10"
       ></div>
     </div>
     <div class="relative w-1/3 flex flex-col items-start">
