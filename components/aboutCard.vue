@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h4 class="my-2">{{ skillTitle }}</h4>
+    <p class="mb-6 mt-2">{{ aboutText }}</p>
   </div>
 </template>
 
 <script setup>
 defineProps({
-  skillTitle: String,
+  aboutText: String,
 });
 </script>
 

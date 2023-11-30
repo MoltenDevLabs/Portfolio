@@ -1,15 +1,25 @@
 <template>
   <div>
+    <!-- NAVBAR SECTION -->
+    <navbarSection id="header" />
     <!-- HERO SECTION -->
-    <heroSection class="relative mb-24" />
+    <heroSection id="heroSection" class="relative mb-28 mt-8 pt-0.5" />
     <!-- SKILL SECTION -->
-    <skillSection class="fade-in-effect mb-24" />
+    <skillSection id="skillSection" class="fade-in-effect mb-28 mt-8 pt-0.5" />
     <!-- PROJECT SECTION -->
-    <projectSection class="fade-in-effect mb-24" />
+    <projectSection
+      id="projectSection"
+      class="fade-in-effect mb-28 mt-8 pt-0.5"
+    />
     <!-- ABOUT SECTION-->
-    <aboutSection class="fade-in-effect mb-24" />
+    <aboutSection id="aboutSection" class="fade-in-effect mb-28 mt-8 pt-0.5" />
     <!-- CONTACT SECTION -->
-    <contactSection class="fade-in-effect" />
+    <contactSection
+      id="contactSection"
+      class="fade-in-effect mb-28 mt-8 pt-0.5"
+    />
+    <!-- FOOTER SECTION -->
+    <footerSection />
   </div>
 </template>
 

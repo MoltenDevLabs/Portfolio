@@ -8,6 +8,10 @@
 }
 
 @layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
   body {
     @apply container min-w-full
       text-surface-900
@@ -28,15 +32,6 @@
       transition-all duration-500 ease-in-out;
   }
 
-  header,
-  footer {
-    @apply container min-w-full z-10
-      bg-primary-50 dark:bg-primary-900 
-      prose prose-stone dark:prose-invert 
-      prose-a:no-underline
-      transition-all duration-500 ease-in-out;
-  }
-
   ul,
   li {
     @apply p-0;
@@ -51,7 +46,7 @@
     @apply font-header m-0;
   }
   h2 {
-    @apply my-4 text-3xl font-bold tracking-wide underline;
+    @apply my-8 text-3xl font-bold tracking-wide underline;
   }
 
   a {
